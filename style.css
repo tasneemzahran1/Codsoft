@@ -1,0 +1,250 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.dropdown ul {
+    border-radius: 0px;
+    border: 0;
+    box-shadow: 0px 0px 7px 0.5px grey;
+}
+
+header {
+    background-image: url(./images/img/img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+/************SECTION1*****************/
+.bgcontainer1 {
+    background-color: white;
+}
+
+.sec1 ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+
+.sec1 .height {
+    height: 8px;
+}
+/************SECTION1*****************/
+/************Header*****************/
+
+/************Header*****************/
+.wrapper{
+    position: absolute;
+    bottom:30%;
+    
+  }
+
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    margin: 50px;
+    list-style: none;
+    color: #Ffff;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(3) infinite;
+    -webkit-animation: slide 6s steps(3) infinite;
+}
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 50px 0;
+    
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #ffffff;
+    background-color:black;
+    animation: typing 2s steps(10) infinite;
+    -webkit-animation: typing 2s steps(10) infinite;
+}
+  @keyframes typing {
+    100%{
+      left: 100%;
+      margin: 0 -35 0 35;
+    }
+  }
+
+/************SECTION2*****************/
+.sec2 .size {
+    font-size: 50px;
+}
+
+
+.sec2 i {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sec2 .frame {
+    color: black;
+    border-style: solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: #0078FF;
+    border-width: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.service:hover .frame {
+    color: #f5f5f5;
+    background-color: #0078FF;
+}
+
+/************SECTION2*****************/
+/************Achievement*****************/
+.sec3{
+    background-image:url(./images/img/img/post-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 120, 255,0.8);
+}
+
+.sec3 .achieve i{
+    font-size:30px;
+    border-style: solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: rgba(251, 252, 254,0.5);
+    border-width: 10px;
+    padding:15px;
+    margin-bottom:20px;
+}
+/************Achievement*****************/
+/************Portfolio*****************/
+.sec4 .size {
+    font-size: 50px;
+}
+.sec4 .space{
+    margin-bottom: 48px;
+}
+.sec4 img{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.sec4 img:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+.sec4 i{
+    top:75%;
+    left:85%;
+}
+/************Portfolio*****************/
+/************Slider*****************/
+.sec5{
+    background-image: url(./images/img/img/overlay-bg.jpg);
+    background-blend-mode: multiply;
+    background-color:rgba(0, 120, 255,0.8);
+}
+.sec5 .space{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.sec5 .shape{
+    width:10px;
+    height:7px;
+    padding:3px;
+    margin-bottom:150px;
+}
+.sec5 img{
+    width:150px;
+}
+/************Slider*****************/
+/************Blog*****************/
+
+.sec6 .size {
+    font-size: 50px;
+}
+.sec6 .imgsize{
+    width:10%;
+}
+.sec6 a:hover{
+    color: #0078FF;
+}
+
+/************Blog*****************/
+/************Form*****************/
+.sec7 h5{
+    position: relative;
+}
+.sec7 h5::after{
+    content: " ";
+    background-color: #0078FF;
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 105%;
+    left: 0%;
+}
+.sec7 button{
+    left:35%;
+}
+.sec7 ul{
+    list-style:none;
+}
+.sec7 .icons:hover{
+    background-color: #0078FF;
+}
+.sec7 .icons:hover i{
+    color: white;
+}
+/************Form*****************/
+.back{
+    background-color: #0062D3;
+}
+nav li{
+    padding:5px;
+}
+header .size{
+    font-size:50px;
+}
+.sec6 .spacing{
+    padding:0;
+}
+.sec6 span{
+    font-family: Arial, Helvetica, sans-serif;
+}
